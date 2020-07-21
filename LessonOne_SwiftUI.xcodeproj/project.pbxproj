@@ -14,6 +14,8 @@
 		EE08EB0124C6D7F900626AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE08EB0024C6D7F900626AEB /* Assets.xcassets */; };
 		EE08EB0424C6D7F900626AEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE08EB0324C6D7F900626AEB /* Preview Assets.xcassets */; };
 		EE08EB0724C6D7F900626AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE08EB0524C6D7F900626AEB /* LaunchScreen.storyboard */; };
+		EE08EB0F24C6D8CE00626AEB /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08EB0E24C6D8CE00626AEB /* ColorCircle.swift */; };
+		EE08EB1324C6E5CC00626AEB /* OperatingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08EB1224C6E5CC00626AEB /* OperatingMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EE08EB0324C6D7F900626AEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE08EB0624C6D7F900626AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE08EB0824C6D7F900626AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE08EB0E24C6D8CE00626AEB /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		EE08EB1224C6E5CC00626AEB /* OperatingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				EE08EAF724C6D7F400626AEB /* AppDelegate.swift */,
 				EE08EAF924C6D7F400626AEB /* SceneDelegate.swift */,
 				EE08EAFE24C6D7F400626AEB /* ContentView.swift */,
+				EE08EB1224C6E5CC00626AEB /* OperatingMode.swift */,
+				EE08EB0E24C6D8CE00626AEB /* ColorCircle.swift */,
 				EE08EB0024C6D7F900626AEB /* Assets.xcassets */,
 				EE08EB0524C6D7F900626AEB /* LaunchScreen.storyboard */,
 				EE08EB0824C6D7F900626AEB /* Info.plist */,
@@ -151,7 +157,9 @@
 			files = (
 				EE08EAF824C6D7F400626AEB /* AppDelegate.swift in Sources */,
 				EE08EAFA24C6D7F400626AEB /* SceneDelegate.swift in Sources */,
+				EE08EB0F24C6D8CE00626AEB /* ColorCircle.swift in Sources */,
 				EE08EAFF24C6D7F400626AEB /* ContentView.swift in Sources */,
+				EE08EB1324C6E5CC00626AEB /* OperatingMode.swift in Sources */,
 				EE08EAFD24C6D7F400626AEB /* LessonOne_SwiftUI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
